@@ -6,6 +6,5 @@ const Routing = () => {
 
     let element = useRoutes([
         { path: '/demo', element: <Demo /> },
-        { path: '/:userId/findPeople', element: <findPeople /> }
     ])
 }
