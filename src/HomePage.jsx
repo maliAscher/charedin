@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import profileImage from './image.png'; // וודא שהתמונה במיקום הנכון בפרויקט שלך
+import './HomePage.css'
+import profileImage from './component/icon-HomePage.jpg'; // וודא שהתמונה במיקום הנכון בפרויקט שלך
 
 function HomePage() {
   return (
@@ -10,11 +10,6 @@ function HomePage() {
         <p>
           I'm Lily Smith, a passionate web developer based in USA. Here, you'll get a glimpse of my journey in the world of web development, where creativity meets functionality.
         </p>
-        <form>
-          <label htmlFor="email">Your email</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" />
-          <button type="submit">REQUIRE OFFER</button>
-        </form>
         <a href="/terms">Read my Terms and Conditions</a>
       </div>
       <div className="image">
