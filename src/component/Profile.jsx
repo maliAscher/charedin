@@ -47,7 +47,7 @@ const Profile = () => {
               מה הקשר ביניהם
             </Typography>
             <Typography variant="body1" className='textRtl'>
-              נתונים שמראים את הקשר ביניהם...
+              ...נתונים שמראים את הקשר ביניהם
             </Typography>
           </CardContent>
         </Card>
