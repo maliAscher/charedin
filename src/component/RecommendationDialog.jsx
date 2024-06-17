@@ -19,29 +19,29 @@ const RecommendationDialog = ({ open, handleClose }) => {
 
     return (
         <Dialog open={open} onClose={handleClose} maxWidth="md" fullWidth>
-        <DialogTitle textAlign="right">הוספת המלצה</DialogTitle>
-        <DialogContent>
-  
-    <TextField
-      inputProps={{
-        style: { textAlign: 'right' }
-      }}
-      autoFocus
-      required
-      margin="dense"
-      type="text"
-      fullWidth
-      variant="standard"
-    />
-    
-        </DialogContent>
-        <DialogActions sx={{ justifyContent: 'flex-start' }}>
-      <Button onClick={handleClose}>ביטול</Button>
-      <Button type="submit" onClick={handleSubmit} color="primary">
-        הוספה
-      </Button>
-    </DialogActions>
-      </Dialog>
+            <DialogTitle textAlign="right">הוספת המלצה</DialogTitle>
+            <DialogContent>
+
+                <TextField
+                    inputProps={{
+                        style: { textAlign: 'right' }
+                    }}
+                    autoFocus
+                    required
+                    margin="dense"
+                    type="text"
+                    fullWidth
+                    variant="standard"
+                />
+
+            </DialogContent>
+            <DialogActions sx={{ justifyContent: 'flex-start' }}>
+                <Button onClick={handleClose}>ביטול</Button>
+                <Button type="submit" onClick={handleSubmit} color="primary" sx={{ bgcolor: '#5753c9' }}>
+                    הוספה
+                </Button>
+            </DialogActions>
+        </Dialog>
     );
 };
 

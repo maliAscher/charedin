@@ -22,11 +22,11 @@ const Profile = () => {
         <Typography variant="h4" component="h1" gutterBottom>
           יעל יצחקי
         </Typography>
-        <Button variant="contained" color="primary" sx={{ mt: 2 }}>
-           + הוסיפי כחברה
-         </Button>
+        <Button variant="contained" color="primary" sx={{ mt: 2, bgcolor: '#5753c9' }}>
+          + הוסיפי כחברה
+        </Button>
       </Box>
-      
+
       <Box textAlign="right" my={4}>
         <Card>
           <CardContent>
@@ -62,9 +62,9 @@ const Profile = () => {
             <Typography variant="body1" className='textRtl'>
               כאן יופיעו ההמלצות...
             </Typography>
-            <Button variant="contained" color="primary" sx={{ mt: 2 }} onClick={handleDialogOpen}>
-          הוספת המלצה
-        </Button>
+            <Button variant="contained" color="primary" sx={{ mt: 2, bgcolor: '#5753c9' }} onClick={handleDialogOpen}>
+              הוספת המלצה
+            </Button>
           </CardContent>
         </Card>
       </Box>
