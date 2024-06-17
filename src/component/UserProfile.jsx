@@ -7,20 +7,16 @@ export default function UserProfile() {
   return (
     <div className="user-profile">
       <div className="profile-header">
-        <img src="path-to-header-image.jpg" alt="Header" className="header-image" /> {/* תמונת הרקע */}
         <img src={profileImage} alt="Profile" className="profile-image" />
         <h1 className="profile-name">
-          Areal Alien <span className="verified">✔</span>
+         יעל יצחקי <span className="verified"></span>
         </h1>
-        <p className="profile-stats">
-          857 Followers  |  137 Following
-        </p>
-        <button className="subscribe-button">+ Subscribe</button>
+        <button className="subscribe-button">  + הוסיפי כחברה</button>
       </div>
       <div className="profile-nav">
-        <a href="#trophies"> אודות</a>
         <a href="#points"> מה הקשר</a>
         <a href="#about">המלצות</a>
+        <a href="#trophies"> אודות</a>
         {/* <a href="#posts">💬 Posts</a> */}
       </div>
     </div>
