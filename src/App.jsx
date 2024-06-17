@@ -8,6 +8,7 @@ function App() {
     <>
     {/* <HomePage/> */}
     <UserProfile/>
+    <Demo2HomePage />
     </>
   )
 }
