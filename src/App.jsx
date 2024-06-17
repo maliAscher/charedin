@@ -13,6 +13,7 @@ function App() {
     {/* <HomePage/> */}
     {/* <MainCom /> */}
       {/* <HomePage /> */}
+      <MainCom />
     </>
   );
 }
