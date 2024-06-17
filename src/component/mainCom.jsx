@@ -7,7 +7,6 @@ import Login from './login'
 import Profile from './Profile'
 import HomePage from './HomePage'
 import Demo2_ProductDetails from './default2'
-import Profile  from './Profile'
 
 export default function MainCom() {
     return (

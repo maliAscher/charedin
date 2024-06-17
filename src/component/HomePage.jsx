@@ -1,7 +1,19 @@
-import './HomePage.css';
+//import './HomePage.css';
 import profileImage from './icon-HomePage.jpg';
+import { useNavigate } from 'react-router-dom';
+
+  
 
 function HomePage() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle login logic here
+    
+    navigate('/login');
+  };
+
   return (
     <div className='container'>
       <div className='image'>
@@ -21,7 +33,7 @@ function HomePage() {
           הזדמנויות תעסוקה מעניינות.
         </p>
 
-        <button>כניסה</button>
+        <button onClick={handleSubmit}>כניסה</button>
       </div>
     </div>
   );
