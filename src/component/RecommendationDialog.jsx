@@ -37,7 +37,7 @@ const RecommendationDialog = ({ open, handleClose }) => {
             </DialogContent>
             <DialogActions sx={{ justifyContent: 'flex-start' }}>
                 <Button onClick={handleClose}>ביטול</Button>
-                <Button type="submit" onClick={handleSubmit} color="primary" sx={{ bgcolor: '#5753c9' }}>
+                <Button type="submit" onClick={handleSubmit} color="primary" >
                     הוספה
                 </Button>
             </DialogActions>
