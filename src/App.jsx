@@ -5,7 +5,8 @@ function App() {
 
   return (
     <>
-    <HomePage/>
+    {/* <HomePage/> */}
+    <Demo2HomePage />
     </>
   )
 }
