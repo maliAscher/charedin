@@ -8,7 +8,7 @@ import Profile from './component/Profile'
 function App() {
   return (
     <>
-    <Profile/>
+    {/* <Profile/> */}
     {/* <HomePage/> */}
     {/* <MainCom /> */}
       {/* <HomePage /> */}
