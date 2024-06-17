@@ -70,7 +70,7 @@ usersList.push({id: 3, picture:"", firstName:"תמר", lastName:"פרידמן", 
 
                 
 usersList.push({id: 4, picture:"", firstName:"איילה", lastName:"פרידמן", preLastName:"דהן", momLastName:"אפלבוים",
-                syna:"בית ישראל", year:2000, gender:"f", about:"יזמית, יצירתית, בעלת קליטה מהירה",
+                syna:"", year:2000, gender:"f", about:"יזמית, יצירתית, בעלת קליטה מהירה",
                 freinds:[5, 7], 
                 lookingFor:{work:false, worker:true}, 
                 links:["https://github.com/",
@@ -78,34 +78,32 @@ usersList.push({id: 4, picture:"", firstName:"איילה", lastName:"פרידמ�
                 recos:[
                     {recoId:"", txt:""}
                 ],
-                zerem:["", ""], 
+                zerem:["חסידי", "ויזניץ"], 
                 place:["פתח תקווה"], 
-                study:["", "אילדיסהיימר"], 
+                study:["תבונה", "אילדיסהיימר"], 
                 work:[
                     {place:"Microsoft", job:"Program developer"}
                 ]});
 
                 
-usersList.push({id: 5, picture:"", firstName:"שרה", lastName:"כהנא", preLastName:"כהן", momLastName:"מזרחי",
-                syna:"בית ישראל", year:2000, gender:"f", about:"מפתחת תוכנה מנוסה",
-                freinds:[4], 
+usersList.push({id: 5, picture:"", firstName:"שרה", lastName:"כהנא", preLastName:"רוטמן", momLastName:"מזרחי",
+                syna:"", year:2000, gender:"f", about:"מפתחת תוכנה מנוסה",
+                freinds:[4, 8], 
                 lookingFor:{work:false, worker:true}, 
-                links:["https://github.com/",
-                "https://stackoverflow.com/",
-                "https://www.linkedin.com/"], 
+                links:["https://github.com/"], 
                 recos:[
                     {recoId:"", txt:"עובדת מסורה ביותר"}
                 ],
-                zerem:["ליטאי", ""], 
+                zerem:["חסידי", "קרלין"], 
                 place:["פתח תקווה"], 
-                study:["", "אילדיסהיימר"], 
+                study:["אופקים", "אילדיסהיימר"], 
                 work:[
                     {place:"Microsoft", job:"Program developer"}
                 ]});
 
                 
-usersList.push({id: 6, picture:"", firstName:"אסתר", lastName:"פרץ", preLastName:"כהן", momLastName:"פרידמן",
-                syna:"בית ישראל", year:2000, gender:"f", about:"מפתחת תוכנה מנוסה",
+usersList.push({id: 6, picture:"", firstName:"אסתר", lastName:"פרץ", preLastName:"פנחסי", momLastName:"פרידמן",
+                syna:"", year:2000, gender:"f", about:"מפתחת תוכנה מנוסה",
                 freinds:[7], 
                 lookingFor:{work:false, worker:true}, 
                 links:["https://github.com/",
@@ -114,21 +112,20 @@ usersList.push({id: 6, picture:"", firstName:"אסתר", lastName:"פרץ", preL
                 recos:[
                     {recoId:"", txt:"עובדת מסורה ביותר"}
                 ],
-                zerem:["ליטאי", ""], 
+                zerem:["ספרדי", ""], 
                 place:["תל אביב"], 
-                study:["האוניברסיטה הפתוחה", "שרנסקי"], 
+                study:["תבונה", "שרנסקי"], 
                 work:[
                     {place:"Microsoft", job:"Program developer"}
                 ]});
 
 
                 
-usersList.push({id: 7, picture:"", firstName:"חיה", lastName:"דהן", preLastName:"כהן", momLastName:"לוי",
-                syna:"בית ישראל", year:2000, gender:"f", about:"מפתחת תוכנה מנוסה",
+usersList.push({id: 7, picture:"", firstName:"חיה", lastName:"דהן", preLastName:"דוד", momLastName:"לוי",
+                syna:"", year:2000, gender:"f", about:"מפתחת תוכנה מנוסה",
                 freinds:[4, 6], 
                 lookingFor:{work:false, worker:true}, 
                 links:["https://github.com/",
-                "https://stackoverflow.com/",
                 "https://www.linkedin.com/"], 
                 recos:[
                     {recoId:"", txt:"עובדת מסורה ביותר"}
@@ -142,59 +139,51 @@ usersList.push({id: 7, picture:"", firstName:"חיה", lastName:"דהן", preLas
 
 
                 
-usersList.push({id: 8, picture:"", firstName:"יעל", lastName:"אברהמי", preLastName:"כהן", momLastName:"כהנא",
-                syna:"בית ישראל", year:2000, gender:"f", about:"מפתחת תוכנה מנוסה",
-                freinds:[2, 9], 
+usersList.push({id: 8, picture:"", firstName:"יעל", lastName:"אברהמי", preLastName:"נאה", momLastName:"כהנא",
+                syna:"", year:1985, gender:"f", about:"",
+                freinds:[2, 5, 9], 
                 lookingFor:{work:false, worker:true}, 
-                links:["https://github.com/",
-                "https://stackoverflow.com/",
-                "https://www.linkedin.com/"], 
+                links:[], 
                 recos:[
                     {recoId:"", txt:"עובדת מסורה ביותר"}
                 ],
-                zerem:["ליטאי", ""], 
+                zerem:["חסידי", "קרלין"], 
                 place:["בני ברק"], 
                 study:["האוניברסיטה הפתוחה", "מאיר"], 
                 work:[
-                    {place:"Microsoft", job:"Program developer"}
+                    {place:"Urban BI", job:"Program developer"},
+                    {place:"Microsoft", job:"Program developer"},
+                    {place:"ChekPoint", job:"Program developer"}
+
                 ]});
 
-
-                {place:"Apple", job:"Program developer"}
-                {place:"mobileye", job:"Program developer"}
-                {place:"ChekPoint", job:"Program developer"}
-                {place:"Urban BI", job:"Program developer"}
-                {place:"Matrix", job:"Program developer"}
-                {place:"Intel", job:"Program developer"}
-
                 
-usersList.push({id: 9, picture:"", firstName:"מרים", lastName:"מלכא", preLastName:"כהן", momLastName:"דהן",
-                syna:"בית ישראל", year:1998, gender:"f", about:"מעמיקה ויסודית. ראש צוות בדיקת תוכנה",
+usersList.push({id: 9, picture:"", firstName:"מרים", lastName:"מלכא", preLastName:"גרינשטיין", momLastName:"דהן",
+                syna:"", year:1998, gender:"f", about:"מעמיקה ויסודית. ראש צוות בדיקת תוכנה",
                 freinds:[8, 10], 
                 lookingFor:{work:false, worker:true}, 
                 links:["https://github.com/",
                 "https://www.linkedin.com/"], 
                 recos:[
-                    {recoId:"", txt:"עובדת מסורה ביותר"}
                 ],
                 zerem:["ספרדי", ""], 
                 place:["בני ברק"], 
                 study:["לוסטיג","מאיר"], 
                 work:[
+                    {place:"Urban BI", job:"Program developer"},
                     {place:"Microsoft", job:"Program developer"}
                 ]});
 
 
                 
-usersList.push({id: 10, picture:"", firstName:"חנה", lastName:"אזולאי", preLastName:"כהן", momLastName:"לוי",
-                syna:"בית ישראל", year:2004, gender:"f", about:"סטודנטית",
-                freinds:[3], 
-                lookingFor:{work:false, worker:true}, 
+usersList.push({id: 10, picture:"", firstName:"חנה", lastName:"אזולאי", preLastName:"", momLastName:"לוי",
+                syna:"", year:2004, gender:"f", about:"סטודנטית",
+                freinds:[3, 9], 
+                lookingFor:{work:true, worker:false}, 
                 links:["https://github.com/",
-                "https://stackoverflow.com/",
                 "https://www.linkedin.com/"], 
                 recos:[
-                    {recoId:"", txt:"עובדת מסורה ביותר"}
+                    {recoId:"3", txt:"תמיד עוזרת לכולן"}
                 ],
                 zerem:["ליטאי", ""], 
                 place:["רמת גן", "חיפה"], 
