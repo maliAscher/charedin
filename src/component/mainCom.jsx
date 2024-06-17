@@ -4,6 +4,7 @@ import './styles.css'
 import { Routes, Route, Link } from 'react-router-dom'
 import Users from './Users'
 import Demo2_ProductDetails from './default2'
+import Profile  from './Profile'
 
 export default function MainCom() {
     return (
@@ -48,6 +49,7 @@ export default function MainCom() {
                 <Route path="/tech" element={<Demo2Contact />} />
                 <Route path="/users" element={<Users />} />
                 <Route path="/signup" element={<Demo2_ProductDetails />} />
+                <Route path="/profile" element={<Profile />} />
             </Routes>
             </div>
             
