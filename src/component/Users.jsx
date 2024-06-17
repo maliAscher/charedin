@@ -114,12 +114,12 @@ export default function Users() {
                     </Grid>
                 ))}
                 <Grid item>
-                    <Button variant="contained" color="primary" onClick={handleAddFilter}>
+                    <Button variant="contained" color="primary" onClick={handleAddFilter} sx={{ mt: 2, bgcolor: '#5753c9' }}>
                         הוסף פילטר
                     </Button>
                 </Grid>
                 <Grid item>
-                    <Button variant="contained" color="primary" onClick={handleSearch}>
+                    <Button variant="contained" color="primary" onClick={handleSearch} sx={{ mt: 2, bgcolor: '#5753c9' }}>
                         חפש
                     </Button>
                 </Grid>
