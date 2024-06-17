@@ -6,13 +6,13 @@
     flex-wrap: wrap;
   }
   
-  .text, .image {
+  .image, .text {
     flex: 1 1 45%;
     min-width: 300px;
     box-sizing: border-box;
   }
   
-  .text {
+  .image {
     padding-right: 20px;
   }
   
@@ -63,7 +63,7 @@
       align-items: flex-start;
     }
   
-    .text {
+    .image {
       padding-right: 0;
       padding-bottom: 20px;
     }
