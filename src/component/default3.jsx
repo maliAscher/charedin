@@ -1,17 +1,26 @@
 import React from 'react'
 
 export default function Demo2Contact() {
-  return (
-    <div style={{width: "100%", height: "300px", backgroundColor: "white"}}>
+    const textStyle = {
+        color: '#333', // dark grey color
+        textAlign: 'center',
+        direction: 'rtl', // right-to-left direction for Hebrew text
+        margin: '40px 20px 20px 20px', // more margin from the top and sides
+        padding: '200px', // padding around the text
+        fontSize: '50px', // increase the font size
+    };
 
-        <h1>Contact Us!</h1>
-        <input type="email" placeholder='email' />
-        <button>Send</button>
-
-
-    </div>
-  )
-}
+    return (
+        // <div style={textStyle}>
+        //     <p>
+        //         מַעֲלָה גְּדוֹלָה שֶׁאֵין לְמַעְלָה מִמֶּנָּה זֶה הַמַּחֲזִיק בְּיַד יִשְׂרָאֵל … עוֹשֶׂה עִמּוֹ שֻׁתָּפוּת אוֹ מַמְצִיא לוֹ מְלָאכָה כְּדֵי לְחַזֵּק אֶת יָדוֹ עַד שֶׁלֹּא יִצְטָרֵךְ לַבְּרִיּוֹת לִשְׁאל. וְעַל זֶה נֶאֱמַר (ויקרא כה-לה) "וְהֶחֱזַקְתָּ בּוֹ גֵּר וְתוֹשָׁב וָחַי עִמָּךְ" .
+        //         (הרמב"ם, משנה תורה)
+        //     </p>
+        // </div>
+        <div></div>
+    );
+};
+  
 // Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
 const top100Films = [
   { label: 'The Shawshank Redemption', year: 1994 },
