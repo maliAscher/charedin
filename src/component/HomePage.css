@@ -1,71 +1,154 @@
+/* HomePage.css */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  font-family: 'Varela Round', sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+}
+
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 80px 20px 80px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  direction: ltr; /* Set container direction to ltr for flex alignment */
+}
+
+.image {
+  padding-left: 40px; /* Add larger padding to the left side of the image */
+}
+
+.image img {
+  border-radius: 50%;
+  width: 200px; /* Increase image size */
+  height: 200px;
+  object-fit: cover;
+}
+
+.text {
+  text-align: right;
+  padding-right: 20px;
+  direction: rtl;
+}
+
+.text h1 {
+  font-size: 3rem; /* Make the heading really big */
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  background-color: red;
+}
+
+.image,
+.text {
+  flex: 1 1 45%;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+.image {
+  padding-right: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #333;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .image, .text {
-    flex: 1 1 45%;
-    min-width: 300px;
-    box-sizing: border-box;
-  }
-  
+
   .image {
-    padding-right: 20px;
+    padding-right: 0;
+    padding-bottom: 20px;
   }
-  
-  .image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  form {
-    margin-top: 20px;
-  }
-  
-  form input {
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  form button {
-    padding: 10px 20px;
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #333;
-  }
-  
-  a {
-    display: block;
-    margin-top: 10px;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .image {
-      padding-right: 0;
-      padding-bottom: 20px;
-    }
-  }
-  
+} */
