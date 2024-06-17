@@ -2,7 +2,7 @@ import React from 'react'
 import Demo2Contact from './default3'
 import './styles.css'
 import { Routes, Route, Link } from 'react-router-dom'
-import Users from './defautl1'
+import Users from './Users'
 import Demo2_ProductDetails from './default2'
 
 
@@ -27,7 +27,7 @@ export default function MainCom() {
                                 <Link to="/tech" className="navbar__links">Tech</Link>
                             </li>
                             <li className="navbar__item">
-                                <Link to="/products" className="navbar__links">Products</Link>
+                                <Link to="/users" className="navbar__links">Users</Link>
                             </li>
                             <li className="navbar__btn">
                                 <Link to="/signup" className="button">Sign Up</Link>
@@ -41,7 +41,7 @@ export default function MainCom() {
 
                 <Routes>
                     <Route path="/tech" element={<Demo2Contact />} />
-                    <Route path="/products" element={<Users />} />
+                    <Route path="/users" element={<Users />} />
                     <Route path="/signup" element={<Demo2_ProductDetails />} />
                    
                 </Routes>
