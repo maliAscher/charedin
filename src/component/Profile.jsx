@@ -1,11 +1,13 @@
-
 import React, { useState } from 'react';
 import { Container, Box, Typography, Button, Card, CardContent } from '@mui/material';
 import profileImage from './icon-HomePage.jpg';
 import RecommendationDialog from './RecommendationDialog'; // Import the RecommendationDialog component
+import { useLocation } from 'react-router-dom'; // Import useLocation from react-router-dom
 
 const Profile = () => {
   const [openDialog, setOpenDialog] = useState(false);
+  const location = useLocation();
+  const { state: { user } } = location;
 
   const handleDialogOpen = () => {
     setOpenDialog(true);
@@ -20,7 +22,7 @@ const Profile = () => {
       <Box textAlign="center" mt={4}>
         <img src={profileImage} alt="Profile" style={{ width: '100px', height: '100px', borderRadius: '50%', border: '5px solid white' }} />
         <Typography variant="h4" component="h1" gutterBottom>
-          יעל יצחקי
+          {user.firstName} {user.lastName}
         </Typography>
         <Button variant="contained" color="primary" sx={{ mt: 2, bgcolor: '#5753c9' }}>
           + הוסיפי כחברה
@@ -34,7 +36,7 @@ const Profile = () => {
               אודות
             </Typography>
             <Typography variant="body1">
-              ...תוכן אודות יעל יצחקי
+              {user.about}
             </Typography>
           </CardContent>
         </Card>
