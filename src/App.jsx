@@ -1,18 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import HomePage from './component/HomePage'
-import UserProfile from './component/UserProfile'
-import MainCom from './component/mainCom'
-function App() {
+import HomePage from './component/HomePage';
 
+function App() {
   return (
     <>
-    <HomePage/>
-    <UserProfile/>
-    <Demo2HomePage />
-    <MainCom />
+      <HomePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
