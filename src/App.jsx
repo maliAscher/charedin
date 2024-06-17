@@ -6,7 +6,7 @@ import MainCom from './component/mainCom'
 function App() {
   return (
     <>
-      <HomePage />
+      <MainCom />
     </>
   );
 }
