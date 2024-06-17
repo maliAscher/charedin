@@ -11,9 +11,8 @@ function App() {
     <>
     <Profile/>
     {/* <HomePage/> */}
-    {/* <UserProfile/> */}
     {/* <MainCom /> */}
-      <HomePage />
+      {/* <HomePage /> */}
     </>
   );
 }

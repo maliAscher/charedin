@@ -68,4 +68,6 @@
     background-color: #005bb5;
   }
   
-
+  .textRtl{
+    direction: rtl;
+  }
