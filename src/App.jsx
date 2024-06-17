@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    {/* <HomePage/> */}
+    <HomePage/>
     <UserProfile/>
     <Demo2HomePage />
     <MainCom />
