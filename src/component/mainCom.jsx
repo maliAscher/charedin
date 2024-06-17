@@ -3,6 +3,9 @@ import Demo2Contact from './default3'
 import './styles.css'
 import { Routes, Route, Link } from 'react-router-dom'
 import Users from './Users'
+import Login from './login'
+import Profile from './Profile'
+import HomePage from './HomePage'
 import Demo2_ProductDetails from './default2'
 
 export default function MainCom() {
@@ -19,35 +22,42 @@ export default function MainCom() {
       rel="stylesheet"
     />
         <div>
-            <nav className="navbar">
-                <div className="navbar__container">
-                <Link to="/" id="navbar__logo"><i className="fas fa-laptop"> CharedIn</i></Link>
-                <div className="navbar__toggle" id="mobile-menu">
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                </div>
-                <ul className="navbar__menu">
-                    <li className="navbar__item">
-                    <Link to="/" className="navbar__links">Home</Link>
-                    </li>
-                    <li className="navbar__item">
-                    <Link to="/tech" className="navbar__links">Tech</Link>
-                    </li>
-                    <li className="navbar__item">
-                    <Link to="/users" className="navbar__links">Users</Link>
-                    </li>
-                    <li className="navbar__btn">
-                    <Link to="/signup" className="button">Sign Up</Link>
-                    </li>
-                </ul>
-                </div>
-            </nav>
+        <nav className="navbar">
+    <div className="navbar__container">
+    
+        <ul className="navbar__menu">
+        <li className="navbar__btn">
+                <Link to="/profile" className="button">פרופיל</Link>
+            </li>
+            
+            <li className="navbar__item">
+                <Link to="/tech" className="navbar__links">פורומים</Link>
+            </li>
+            <li className="navbar__item">
+                <Link to="/users" className="navbar__links">חיפוש</Link>
+            </li>
+            <li className="navbar__item">
+                <Link to="/" className="navbar__links">בית</Link>
+            </li>
+            
+        </ul>
+        <Link to="/" id="navbar__logo"> <b>CharedIn</b>   <i className="fas fa-laptop"></i></Link>
+        <div className="navbar__toggle" id="mobile-menu">
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+        </div>
+    </div>
+</nav>
 
             <Routes>
+
                 <Route path="/tech" element={<Demo2Contact />} />
+                <Route path="/" element={<Demo2Contact />} />
                 <Route path="/users" element={<Users />} />
-                <Route path="/signup" element={<Demo2_ProductDetails />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/start" element={<HomePage />} />
             </Routes>
             </div>
             
