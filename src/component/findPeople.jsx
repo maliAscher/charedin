@@ -9,13 +9,17 @@ export default function findPeople() {
 
     return (
         <div>
-            <Autocomplete
-                disablePortal
-                id="combo-box-demo"
-                options={top100Films}
-                sx={{ width: 300 }}
-                renderInput={(params) => <TextField {...params} label="Movie" />}
-            />
+            <div className='searchDiv'>
+                <Autocomplete
+                    disablePortal
+                    id="combo-box-demo"
+                    options={top100Films}
+                    sx={{ width: 300 }}
+                    renderInput={(params) => <TextField {...params} label="Movie" />}
+                />
+                <TextField fullWidth label="fullWidth" id="fullWidth" />
+            </div>
+
         </div>
     )
 }
