@@ -6,32 +6,9 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Demo2Products from './defautl1'
 import Demo2_ProductDetails from './default2'
 
-export default function Demo2HomePage() {
+export default function MainCom() {
     return (
         <div>
-
-
-
-            {/* <nav style={{ border: "2px solid black", display: "flex", justifyContent: "space-between" }}>
-                <Link to="/contact">Contact</Link>
-                <Link to="/products">Products</Link>
-
-
-
-
-            </nav>
-
-
-            <Routes>
-                <Route path="/" element={<h1>Home Page!!!</h1>} />
-            
-                <Route path="/contact" element={<Demo2Contact />} />
-
-                <Route path="/products" element={<Demo2Products />} />
-                <Route path="/product/:id" element={<Demo2_ProductDetails />} />
-           
-
-            </Routes> */}
 
         <div>
             <nav className="navbar">
@@ -68,9 +45,7 @@ export default function Demo2HomePage() {
             
 
 
-            {/* <footer style={{ backgroundColor: "darkblue", textAlign: "center" }}>
-                <span style={{ color: "white" }}>Copyright 2024</span>
-            </footer> */}
+            
             <div class="footer__container">
         <div class="footer__links">
             <div class="footer__link--wrapper">

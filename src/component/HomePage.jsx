@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css'
-import profileImage from './component/icon-HomePage.jpg'; // וודא שהתמונה במיקום הנכון בפרויקט שלך
+import profileImage from './icon-HomePage.jpg'; // וודא שהתמונה במיקום הנכון בפרויקט שלך
 
 function HomePage() {
   return (

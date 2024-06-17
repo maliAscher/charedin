@@ -1,6 +1,5 @@
 import React from 'react'
 import { useParams } from "react-router-dom"
-import axios from "axios"
 import { useEffect } from 'react'
 import { useState } from 'react'
 export default function Demo2_ProductDetails() {
