@@ -8,6 +8,11 @@ import Profile from './component/Profile'
 function App() {
   return (
     <>
+
+    {/* <Profile/> */}
+    {/* <HomePage/> */}
+    {/* <MainCom /> */}
+      {/* <HomePage /> */}
       <MainCom />
     </>
   );
