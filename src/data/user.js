@@ -121,7 +121,7 @@ usersList.push({id: 6, picture:"", firstName:"אסתר", lastName:"פרץ", preL
 usersList.push({id: 7, picture:"", firstName:"חוה", lastName:"דהן", preLastName:"דוד", momLastName:"לוי",
                 syna:"", year:2000, gender:"f", about:"c#, java, c",
                 freinds:[4, 6], 
-                lookingFor:{work:true, worker:false}, 
+                lookingFor:{work:true, worker:true}, 
                 links:["https://github.com/",
                 "https://www.linkedin.com/"], 
                 recos:[
@@ -145,7 +145,7 @@ usersList.push({id: 8, picture:"", firstName:"יעל", lastName:"אברהמי", 
                 ],
                 zerem:["חסידי", "קרלין"], 
                 place:["בני ברק"], 
-                study:["האוניברסיטה הפתוחה", "מאיר"], 
+                study:["אוניברסיטת בר אילן", "האוניברסיטה הפתוחה", "מאיר"], 
                 work:[
                     {place:"Urban BI", job:"Program developer"},
                     {place:"Microsoft", job:"Program developer"},

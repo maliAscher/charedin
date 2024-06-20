@@ -1,9 +1,9 @@
-import { Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
+import { Card, CardContent, Typography, Box } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import PersonIcon from '@mui/icons-material/Person';
 
 const UserCard = ({ user }) => {
-  const connections = ['למדתם ביחד בסמינר', 'חברה שלך ממליצה עליה', 'אתם מאותו עיר', 'למדתם ביחד בסמינר', 'חברה שלך ממליצה עליה', 'אתם מאותו עיר', 'למדתם ביחד בסמינר', 'חברה שלך ממליצה עליה', 'אתם מאותו עיר']
+  const connections = ['למדתם ביחד בסמינר', 'חברה שלך ממליצה עליה', 'אתם מאותו עיר', 'אלמדתם ביחד בסמינר', 'חברה שלך ממליצה עליה', 'אתם מאותו עיר', 'למדתם ביחד בסמינר', 'חברה שלך ממליצה עליה', 'אתם מאותו עיר']
   const navigate = useNavigate();
 
   const profilePicture = user.profilePicture ? (
@@ -20,7 +20,7 @@ const UserCard = ({ user }) => {
   return (
     <Card
       sx={{ maxWidth: 300, textAlign: 'center', direction: 'rtl', mx: 'auto' }}
-      onClick={() => navigate('/Profile')}
+      onClick={() => navigate('/Profile', { state: { user } })}
     >
       <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
         {profilePicture}
